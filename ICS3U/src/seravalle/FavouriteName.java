@@ -19,14 +19,21 @@ public class FavouriteName {
 		name = myInput.nextLine();
 		// create random number
 		int randomNumber = (int) (Math.random() * 10) + 1;
-		// see if the number is less then or equal to 3 and tell the user if it likes or hates their name
+		// see if the number is less then or equal to 3 and tell the user if it
+		// likes or hates their name
 		if (randomNumber <= 3) {
 
 			System.out.println(" I hate your name " + name);
 		} else {
 			System.out.println(name + " your name is my favourite!");
 		}
+		String Bot = FindA(name);
+		System.out.println(Bot);
 
 	}
 
+	static public String FindA(String Bob) {
+		return Bob;
+
+	}
 }
